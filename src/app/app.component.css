@@ -1,0 +1,4 @@
+.container{
+    background: radial-gradient(circle at top left, rgb(137, 219, 230), rgb(52, 142, 148));
+    padding: 20px;  
+}
