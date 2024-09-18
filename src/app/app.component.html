@@ -1,0 +1,14 @@
+<div class="container my-3 ">
+  <h1 class="text-primary-emphasis">Incubyte TDD Assessment</h1>
+  <div class="alert alert-danger" role="alert" *ngIf="error">
+    {{error}}
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-2">
+      <label for="inputAddress2" class="form-label text-white">Please enter a string.</label>
+      <input type="text" name="string" class="form-control my-3 border border-primary" #str/>
+      <button type="button" class="btn btn-primary" (click)="add(str.value)">Calculate</button>
+      <input type="number" class="form-control my-3 border border-primary" name="sum" [value]="sum" disabled>
+    </div>
+  </div>
+</div>
