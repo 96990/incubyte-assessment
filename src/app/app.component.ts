@@ -36,8 +36,6 @@ export class AppComponent {
     }
      
       return numbers;
-  }
-  //add("//;\n10;22;\n[***][%]/<4560 /\//5/7/6006");
-  
+  }  
   
 }
