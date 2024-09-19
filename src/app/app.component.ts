@@ -6,7 +6,7 @@ import { Component, ViewChild } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'incubyte-tdd-assessment';
+  title = 'incubyte-assessment';
   sum: number = 0;
   error: any = ''
   constructor(){}

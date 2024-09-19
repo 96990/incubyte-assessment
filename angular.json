@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "incubyte-tdd-assessment": {
+    "incubyte-assessment": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/incubyte-tdd-assessment",
+            "outputPath": "dist/incubyte-assessment",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "incubyte-tdd-assessment:build:production"
+              "browserTarget": "incubyte-assessment:build:production"
             },
             "development": {
-              "browserTarget": "incubyte-tdd-assessment:build:development"
+              "browserTarget": "incubyte-assessment:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "incubyte-tdd-assessment:build"
+            "browserTarget": "incubyte-assessment:build"
           }
         },
         "test": {
